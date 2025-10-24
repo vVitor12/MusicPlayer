@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reprodutor de Musiquinhas</title>
+</head>
+<body>
+    <main>
+        <audio id="player"></audio>
+        <section>
+            <h3 class="musicName">Nome da Música</h3>
+            <p class="autorName">Autor</p>
+            <div class="player">
+                <button class="prev" title="Voltar">⏮︎</button>
+                <button class="play" title="Reproduzir">▶︎</button>
+                <button class="next" title="Próxima">⏭︎</button>
+            </div>
+            <div class="progressBar">
+                <div class="progress"></div>
+            </div>
+            <div class="time">
+                <span class="current">00:00</span>
+                <span class="duration">00:00</span>
+            </div>
+            <div class="volume">
+                <input type="range" min="0" max="100" value="50" class="medidor"/>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="app.js"></script>
+</body>
+</html>

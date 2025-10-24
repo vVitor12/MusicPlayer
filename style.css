@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    height: 100vh;
+    background: radial-gradient(crimson, skyblue);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 320px;
+    background: gray;
+    padding: 32px;
+    border: 8px;
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0.25);
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-size: 25px;   
+}
+
+p{
+    color: black;
+    opacity: 1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.volume {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.medidor {
+    width: 100%;
+    max-width: 200px;
+    height: 6px;
+    background: darkblue;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.player{
+    margin-block: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.player button{
+    background: none;
+    border: outset;
+    border-radius: 15px;
+}
+
+.player button i{
+  color: #262626;
+  font-size: 24px;
+}
+
+.progressBar {
+  height: 8px;
+  background-color: lightslategray;
+  border-radius: 4px;
+}
+
+.progress{
+  height: 8px;
+  background-color: #505050;
+  border-radius: 4px;
+}
+
+.time{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.time span{
+  color: #262626;
+  opacity: 0.7;
+  font-size: 12px;
+}
